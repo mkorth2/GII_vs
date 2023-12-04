@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GDI</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+    body {
+      margin: 0;
+    }
+
+    .center-container {
+      position: relative;
+      height: 20vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .logo-image {
+      max-width: 60%; /* Adjust the size as needed */
+      height: auto;
+    }
+
+    .spacer-container {
+      height: 100px; /* Adjust the height as needed */
+    }
+    .text-below {
+      margin-top: 33px; /* Adjust the top margin as needed */
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="Main.html" class="w3-bar-item w3-button"><b>Project ID: 2-29</b></a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="ABOUT.html" class="w3-bar-item w3-button">About Members</a>
+      <a href="Data.html" class="w3-bar-item w3-button">Data Journey</a>
+      <a href="VIDEO.html" class="w3-bar-item w3-button">Demo Video</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+    <img class="w3-image" src="Screenshot 2023-12-01 171338.png" alt="Architecture" width="1500" height="800">
+    <div class="w3-display-middle w3-margin-top w3-center">
+      <h1 class="w3-xxlarge" style="color: black;">
+        <span class="w3-padding w3-black w3-opacity-min"><b>UN</b></span>
+        <span>Gender Development Index???</span>
+      </h1>
+    </div>
+  </header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16" style="text-align: center;">Visualizations and Insights</h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+        <a href="GOVHTML.html">
+          <div class="w3-display-container">
+            <div class="w3-display-topleft w3-black w3-padding">Goverment & GDI</div>
+            <img src="GOV BAR.png" alt="House" height="200" style="width:100%">
+          </div>
+        </a>
+    </div>
+
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <a href="GDPHTML.html">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">GDP & GDI</div>
+          <img src="SC-GDPvGDI.png" alt="House" style="width:100%">
+        </div>
+      </a>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <a href="21HTML.html">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">21st Century Changes</div>
+          <img src="21Bar.png" alt="House" height="200" style="width:100%">
+        </div>
+      </a>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <a href="ParlimentHTML.html">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Parliment Seats & Labor Force</div>
+          <img src="Gov Pos SC.png" alt="House" style="width:100%" height="200">
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <a href="GIIMAPHTML.html">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">GII Map</div>
+          <img src="GIIMAP.png" alt="House" style="width:100%" height="200">
+        </div>
+      </a>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <a href="LaborHTML.html">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Labor Force</div>
+          <img src="Labor Corr SC.png" alt="House" style="width:100%"height="200" >
+        </div>
+      </a>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <a href="BIRTHHTML.html">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Birth Rates</div>
+          <img src="SCbirth.png" alt="House" style="width:100%" height="200">
+        </div>
+      </a>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <a href="EDUCHTML.html">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Education & GII</div>
+          <img src="EDPIC.png" alt="House" style="width:100%" height="200">
+        </div>
+      </a>
+    </div>
+  
+  </div>
+
+
+  <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16" style="text-align: center;" >About the Data and Exploratory Questions</h3>
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <!--
+    <div class="center-container">
+      <img src="UNDP-Logo.png" alt="UNDP Logo" class="logo-image">
+    </div>
+    <div class="text-below">
+      <p> </p>
+      -->
+      <h5 class="w3-border-bottom w3-border-light-grey w3-padding-16" style="text-align: center;" >Gender Development Index (GDI)</h5>
+      <div class="center-container">
+        <img src="GDIcon.png" alt="UNDP Logo" class="logo-image">
+      </div>
+
+    </div>
+
+    <p>The Gender Development Index (GDI) is one of many indices created and compiled by large international organizations like the United Nations Development Programme (UNDP). The GDI is a yearly score given to countries and builds on the Human Development Index by looking at that in terms of the genders. For each gender, a score looking across key dimensions of human development, such as health, education, and economic empowerment, will be devised. The education factor uses expected years of schooling and access to schooling. The economic dimension looks at access and opportunities to jobs as well as estimated income. The GDI is then created by dividing the women's score by the men's score. GDI values close to one, therefore, represent a country with equality between the genders. The key columns in this dataset are the country's name, ISO country code, and yearly GDI from 1960-2021.
+    </p>
+    <ul>
+      Questions:
+    </ul>
+    <ul>
+      1. How does Gross Domestic Profit (GDP) play a role in a GDI score? How does GDP and GDI change over time?
+    </ul>
+    <ul>
+      2. Which type of governments feed equitable societies between the genders?
+    </ul>
+    <ul>
+      3. How does GDI change over time for certain counties and are there any events that can influence this change?
+    </ul>
+    <div class="text-below">
+      <p> </p>
+    <h5 class="w3-border-bottom w3-border-light-grey w3-padding-16" style="text-align: center;" >Gender inequality Index (GII)</h5>
+    <div class="center-container">
+      <img src="GIIcon.png" alt="UNDP Logo" class="logo-image">
+    </div>
+    <p>The definition by the United Nations Development Program (UNDP): “GII is a composite metric of gender inequality using three dimensions: reproductive health, empowerment and the labor market. A low GII value indicates low inequality between women and men, and vice-versa.”
+
+    </p>
+    <ul>
+      Questions:
+    </ul>
+    <ul>
+      1. How well does each indicator reflect the level of GII among countries? Will some indicators be more reflective than others for certain countries?
+    </ul>
+    <ul>
+      2. How are the variations of each indicator among countries around the world and regions (continents)? Does that match the variations of the general GII?
+    </ul>
+    <ul>
+      3. Are there any relationships or correlations among the indicators? How can it tell us about the situations of gender inequality in the world?
+    </ul>
+    <ul>
+    </ul>
+  </div>
+
+<!-- About Section -->
+<div class="w3-container w3-padding-32" id="Learning and Conclusions">
+  <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16" style="text-align: center;" >Learning and Conclusions</h3>
+  
+  <h5 style="text-align: center;" class="w3-border-bottom w3-border-light-grey w3-padding-16">Learning</h5>
+  <p>From this project, we familiarized ourselves with the specific steps of data selection, data processing, and transforming data into meaningful information. We understood what types of data are potentially meaningful and workable for presenting information. We knew the required steps for testing the data and cleaning the data, especially which types of visualizations can be potentially used based on the types of data. Throughout the process, we not only practiced the known methods of transforming data into information but also acquired the mindset of selecting the based ways to present data, which turned out to lead us to several new techniques and methods in coding.   
+  </p>
+
+  <h5 style="text-align: center;" class="w3-border-bottom w3-border-light-grey w3-padding-16">Conclusion: Gender Development Index/h5>
+  <p>The GDI, like the GII, has a large fluctuation between countries and time frames. It is interesting to investigate the various factors that can contribute to GDI. Looking at the increase in the GDP and GDI over time shows a decent positive relationship. As countries get richer or more developed, they tend to provide a more equitable society between the genders. The type of government that a country employee also shows to be an influence in the GDI. Counties that are Liberal Democracies have much better gender equality than Close Autocracy. Likewise, looking at GDI over time can show countries that are under duress. For example, Yemen saw a significant decrease in its GDI score most likely resulting from the outbreak of a Civil War. 
+  </p>
+
+  <h5 style="text-align: center;" class="w3-border-bottom w3-border-light-grey w3-padding-16">Conclusion: Gender Inequality Index</h5>
+  <p>To conclude, the GII itself, as well as its indicators, have large variations among countries of the world as, in general, every indicator shows a general positive correlation with the GII values. While all indicators do convey meaningful messages in terms of the level of gender inequality in the country, the visualizations offered in this project still tell us that different indicators are different in terms of how reflective they are in different regions. For some indicators, the variations in the region can be different than the GII variations in that region, suggesting the potential for further study in that aspect of the region. Besides, the correlations among the indicators are also shown in the visualizations with insights that also show possibilities for further study in related policies.
+  </p>
+
+</div>
+
+
+
+
+<div class="w3-container w3-padding-32" id="Learning and Conclusions">
+  <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16" style="text-align: center;" >Work Cited</h3>
+<ul>
+  1. https://hdr.undp.org/data-center/thematic-composite-indices/gender-inequality-index#indices/GII
+</ul>
+<ul>
+  2. https://data.worldbank.org/indicator/NY.GDP.MKTP.CD
+</ul>
+<ul>
+  3. https://hdr.undp.org/data-center/documentation-and-downloads
+</ul>
+<ul>
+  4. https://ourworldindata.org/grapher/political-regime
+</ul>
+</div>
+
+<!--
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team2.jpg" alt="John" style="width:100%">
+      <h3>John Doe</h3>
+      <p class="w3-opacity">CEO & Founder</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+      <h3>Jane Doe</h3>
+      <p class="w3-opacity">Architect</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
+      <h3>Mike Ross</h3>
+      <p class="w3-opacity">Architect</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team4.jpg" alt="Dan" style="width:100%">
+      <h3>Dan Star</h3>
+      <p class="w3-opacity">Architect</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+  </div>
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+Image of location/map 
+<div class="w3-container">
+  <img src="/w3images/map.jpg" class="w3-image" style="width:100%">
+</div>
+-->
+
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p></p>
+</footer>
+
+</body>
+</html>

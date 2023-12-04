@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.text-below {
+    text-align: center; /* Center text horizontally */
+    display: flex;
+    align-items: center; /* Center text vertically */
+    height: 100px; /* Match the spacer height */
+  }
+  .image-container {
+      text-align: center;
+    }
+
+    .centered-image {
+      display: inline-block;
+    }
+    .custom-div {
+      width: 100px; /* Set the width as needed */
+      height: 600px;
+      background-color: lightblue;
+      align-items: center;
+      text-align: center;
+      margin: 0 auto;
+    }
+</style></style>
+</head>
+<body>
+
+
+    <!-- Navbar (sit on top) -->
+<div class="w3-top">
+    <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+      <a href="Main.html" class="w3-bar-item w3-button"><b>Project ID: 2-29</b></a>
+      <!-- Float links to the right. Hide them on small screens -->
+      <div class="w3-right w3-hide-small">
+        <a href="ABOUT.html" class="w3-bar-item w3-button">About Members</a>
+        <a href="Data.html" class="w3-bar-item w3-button">Data Journey</a>
+        <a href="VIDEO.html" class="w3-bar-item w3-button">Demo Video</a>
+      </div>
+    </div>
+  </div>
+
+<div class="w3-container w3-padding-32" id="Learning and Conclusions">
+  <h1 style="text-align: center;" class="w3-border-bottom w3-border-light-grey w3-padding-16">Data journey and Caveats</h1>
+  <h3 style="text-align: center;" class="w3-border-bottom w3-border-light-grey w3-padding-16">Matthew Korth</h3>
+  <div class="image-container">
+    <img  src="DataPic.png" width="700" height="250" class = ".custom-div">
+  </div class="text-below" >
+    <p style="text-align: center;" >The data journey started with finding a means of getting the data onto Google Colab. At first, we would have the excel download to the google colab page so that we could use pandas csv or xlsx open option. This was an annoying process to do and not easy for someone without the file to reproduce so we use Google Drive libraries to pull the data from a Google Drive link ID. We did this for the GDI, GDP, and country government type data. With the data we collected, we mostly didn’t need to do much cleaning or organizing besides removing unnecessary years and not available values. There was one case when trying to compare GDP and GDI over the years so we needed to melt the year columns into a row so that we could group by each year. Other than that, we just had to manipulate the data for the visualization. There were some cases of creating visualizations that were difficult to make work due to syntax. For example, it took a good amount of effort and understanding a new library to get the dual line/axis GDP and GDI over the years line graph. The hardest part of this project was setting up and learning how to program in HTML. I ended up using a template W3 School, an online coding help/training website. This gave me a structure and aesthetics to use to input our visualizations and information. Nonetheless, I still learned and edit the template to fit our project like having the images direct the uses to the visualizations</p>
+  </div>
+</div class="text-below" >
+<p style="text-align: center;" >W3 Template Link: https://www.w3schools.com/css/css_rwd_templates.asp</p>
+</div>
+</body>
+</html>
